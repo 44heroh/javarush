@@ -5,8 +5,8 @@ public class Solution {
         String s = "Я не хочу изучать Java, я хочу большую зарплату";
 
         //напишите тут ваш код
-//        char[] chArray = s.toCharArray();
-        /*for(char c : chArray){
+        /*char[] chArray = s.toCharArray();
+        for(char c : chArray){
             System.out.println(s.substring(1));
         }*/
         for(int i = 0; i < 40; i++){
