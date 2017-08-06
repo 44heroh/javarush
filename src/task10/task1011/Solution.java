@@ -9,7 +9,8 @@ public class Solution {
         for(char c : chArray){
             System.out.println(s.substring(1));
         }*/
-        for(int i = 0; i < 40; i++){
+        for(int i = 0; i < 40; i++)
+        {
             System.out.println(s.substring(i));
         }
     }
