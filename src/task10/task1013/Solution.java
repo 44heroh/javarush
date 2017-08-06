@@ -1,0 +1,34 @@
+package task10.task1013;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+/**
+ * Created by User on 06.08.2017.
+ */
+public class Solution {
+    public static void main(String[] args) {
+        Human hum = new Human();
+        System.out.println(hum.Address);
+    }
+
+    public static class Human {
+        // напишите тут ваши переменные и конструкторы
+        private String FirstName;
+        private String SecondName;
+        private int Age;
+        private char Sex;
+        private Date Birthday;
+        private String Address;
+
+        public Human(){
+            this.FirstName = "";
+            this.SecondName = "";
+            this.Age = 13;
+            this.Sex = 'M';
+            this.Address = "NY 7 Avenu";
+            this.Birthday = new Date("MAY 1 2004");
+        }
+    }
+}
