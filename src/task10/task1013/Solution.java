@@ -30,5 +30,55 @@ public class Solution {
             this.Address = "NY 7 Avenu";
             this.Birthday = new Date("MAY 1 2004");
         }
+
+        public Human(Human hm){
+            this.FirstName = hm.FirstName;
+            this.SecondName = hm.SecondName;
+            this.Age = hm.Age;
+            this.Sex = hm.Sex;
+            this.Address = hm.Address;
+            this.Birthday = hm.Birthday;
+        }
+
+        public Human(String _FirstName){
+            this.FirstName = _FirstName;
+            this.SecondName = "";
+            this.Age = 13;
+            this.Sex = 'M';
+            this.Address = "NY 7 Avenu";
+            this.Birthday = new Date("MAY 1 2004");
+        }
+        public Human(String _FirstName, String _SecondName){
+            this.FirstName = _FirstName;
+            this.SecondName = _SecondName;
+            this.Age = 13;
+            this.Sex = 'M';
+            this.Address = "NY 7 Avenu";
+            this.Birthday = new Date("MAY 1 2004");
+        }
+        public Human(String _FirstName, String _SecondName, int _Age){
+            this.FirstName = _FirstName;
+            this.SecondName = _SecondName;
+            this.Age = _Age;
+            this.Sex = 'M';
+            this.Address = "NY 7 Avenu";
+            this.Birthday = new Date("MAY 1 2004");
+        }
+        public Human(String _FirstName, String _SecondName, int _Age, char _Sex){
+            this.FirstName = _FirstName;
+            this.SecondName = _SecondName;
+            this.Age = _Age;
+            this.Sex = _Sex;
+            this.Address = "NY 7 Avenu";
+            this.Birthday = new Date("MAY 1 2004");
+        }
+        public Human(String _FirstName, String _SecondName, int _Age, char _Sex, String _Address, Date _Birthday){
+            this.FirstName = _FirstName;
+            this.SecondName = _SecondName;
+            this.Age = _Age;
+            this.Sex = _Sex;
+            this.Address = _Address;
+            this.Birthday = _Birthday;
+        }
     }
 }
