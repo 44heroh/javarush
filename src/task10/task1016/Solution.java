@@ -29,10 +29,7 @@ public class Solution {
         HashMap<String, Integer> result = new HashMap<String, Integer>();
 
         //напишите тут ваш код
-        for(Map.Entry entry : result.entrySet()){
-            System.out.println("Key: " + entry.getKey() + " Value: "
-                    + entry.getValue());
-        }
+
         for(String str : list){
             if(result.containsKey(str)){
                 result.put(str, result.get(str) + 1);
