@@ -29,7 +29,6 @@ public class Solution {
         HashMap<String, Integer> result = new HashMap<String, Integer>();
 
         //напишите тут ваш код
-
         for(String str : list){
             if(result.containsKey(str)){
                 result.put(str, result.get(str) + 1);
