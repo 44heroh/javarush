@@ -19,7 +19,7 @@ public class Solution {
         if(o instanceof Whale)
             return "Кит";
         if(o instanceof Pig)
-            return "Свинья";
+            return "Неизвестное животное";
         if(o instanceof Dog)
             return "Собака";
 
