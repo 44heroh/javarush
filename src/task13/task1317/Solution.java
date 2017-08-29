@@ -4,7 +4,7 @@ package task13.task1317;
  * Created by User on 29.08.2017.
  */
 public class Solution {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         System.out.println(new Today(WeatherType.CLOUDY));
         System.out.println(new Today(WeatherType.FOGGY));
         System.out.println(new Today(WeatherType.FROZEN));
@@ -25,5 +25,6 @@ public class Solution {
         public String getWeatherType(){
             return this.type;
         }
-    }
+    }*/
+
 }
