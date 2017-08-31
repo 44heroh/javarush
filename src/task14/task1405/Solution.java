@@ -3,7 +3,7 @@ package task14.task1405;
 /**
  * Created by User on 30.08.2017.
  */
-public class  {
+public class Solution {
     public static void main(String[] args) {
         Food food = new Food();
         Selectable selectable = new Food();
