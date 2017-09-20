@@ -1,8 +1,5 @@
 package task16.task1601;
 
-/**
- * Created by User on 20.09.2017.
- */
 public class Solution {
     public static void main(String[] args) {
         TestThread task = new TestThread();
