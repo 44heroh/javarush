@@ -28,9 +28,9 @@ public class Solution {
             System.out.println("name=" + name);
             //add sleep here - добавь sleep тут
             try {
-                t.sleep(1000);
-            } catch (Exception e){
-
+                Thread.sleep(1);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
         }
     }
