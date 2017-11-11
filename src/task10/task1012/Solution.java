@@ -1,8 +1,8 @@
 package task10.task1012;
 
-        import java.io.BufferedReader;
-        import java.io.InputStreamReader;
-        import java.util.ArrayList;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
@@ -27,7 +27,7 @@ public class Solution {
 
         // напишите тут ваш код
         int[] countChar = new int[abc.length()];
-        for(String str: list){
+        for(String str : list){
             for(int i = 0; i < abc.length(); i++){
                 for (int j = 0; j < str.length(); j++){
                     if(abcArray[i] == str.charAt(j)){
