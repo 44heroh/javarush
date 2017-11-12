@@ -19,8 +19,8 @@ public class Solution {
                 while (working){
                     System.out.println(toString());
                     this.count++;
-                    if(countIndexUp + 1 == count) return;
                     Thread.sleep(500);
+                    if(countIndexUp + 1 == count) return;
                 }
             } catch (InterruptedException e){
 
