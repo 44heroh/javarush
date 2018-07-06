@@ -13,6 +13,7 @@ public class Solution {
         String fileOut = bufferedReader.readLine();
         bufferedReader.close();
 
+
         BufferedReader fileReader = new BufferedReader(new FileReader(fileIn));
         BufferedWriter writer = new BufferedWriter(new FileWriter(fileOut));
         while (fileReader.ready()) //пока есть непрочитанные байты в потоке ввода
